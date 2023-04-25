@@ -1,6 +1,6 @@
 resources:
 # IBM Software
-#- argocd/instances/ibm-queuemanager-instance.yaml
+- argocd/instances/ibm-queuemanager-instance.yaml
 - argocd/instances/sealed-secrets.yaml
 ## IBM Catalogs
 #- argocd/operators/ibm-catalogs.yaml
