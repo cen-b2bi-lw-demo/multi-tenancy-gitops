@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: pact-broker
+  name:  ibm-sfg-db2
   annotations:
     argocd.argoproj.io/sync-wave: "250"
   labels:
@@ -12,25 +12,11 @@ metadata:
     - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
-    namespace: tools
+    namespace: db2
     server: 'https://kubernetes.default.svc'
   project: services
   source:
-    path: instances/pact-broker
-    helm:
-      values: |
-        pact-broker:
-          database:
-            type: sqlite
-            name: pactbroker.sqlite
-
-          route:
-            enabled: true
-            termination: edge
-            insecure: Redirect
-
-          ingress:
-            enabled: false
+    path: instances/ibm-sfg-db2
   syncPolicy:
     automated:
       prune: true

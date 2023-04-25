@@ -1,20 +1,22 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: apps-ace-stage
+  name: qm-inst-svc
   annotations:
-    argocd.argoproj.io/sync-wave: "300"
+    argocd.argoproj.io/sync-wave: "290"
   labels:
-    gitops.tier.layer: applications
+    gitops.tier.group: cntk
+    gitops.tier.layer: services
+    gitops.tier.source: git
   finalizers:
     - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
-    namespace: openshift-gitops
+    namespace: tools
     server: https://kubernetes.default.svc
-  project: applications
+  project: services
   source:
-    path: ace/config/argocd/staging
+    path: instances/ibm-queuemanager-instance
   syncPolicy:
     automated:
       prune: true

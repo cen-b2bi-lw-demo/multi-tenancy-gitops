@@ -26,10 +26,10 @@ spec:
           name: "banner-env"
 
           ## The background color that should be used for the banner
-          backgroundColor: teal
+          backgroundColor: purple
           ## The color of the text that will appear in the banner
-          color: "'#fff'"
+          color: "white"
           ## The location of the banner. Options: BannerTop, BannerBottom, BannerTopBottom
           location: BannerTop
           ## The text that should be displayed in the banner. This value is required for the banner to be created
-          text: "Cen-b2bi-lw-demo"
+          text: "Cencora"
