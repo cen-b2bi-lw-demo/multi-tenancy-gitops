@@ -4,7 +4,7 @@ resources:
 - argocd/namespace-sealed-secrets.yaml
 - argocd/serviceaccounts-b2bi-prod.yaml
 - argocd/sfg-b2bi-clusterwide.yaml
-- argocd/daemonset-sync-global-pullsecret.yaml
+# - argocd/daemonset-sync-global-pullsecret.yaml
 patches:
 - target:
     group: argoproj.io
