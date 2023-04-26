@@ -16,7 +16,7 @@ spec:
     server: https://kubernetes.default.svc
   project: services
   source:
-    path: instances/lightwell-framework-instance
+    path: instances/lightwell-framework
   syncPolicy:
     automated:
       prune: true
