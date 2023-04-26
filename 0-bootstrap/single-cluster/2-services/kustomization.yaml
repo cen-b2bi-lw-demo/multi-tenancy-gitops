@@ -1,6 +1,6 @@
 resources:
 # IBM Software
-- argocd/operators/ibm-foundations.yaml
+#- argocd/operators/ibm-foundations.yaml
 # - argocd/operators/ibm-catalogs.yaml
 # - argocd/operators/ibm-mq-operator.yaml
 
