@@ -3,10 +3,11 @@ resources:
 - argocd/operators/ibm-foundations.yaml
 - argocd/operators/ibm-catalogs.yaml
 - argocd/operators/ibm-mq-operator.yaml
-#- argocd/instances/ibm-queuemanager-instance.yaml
+
 - argocd/instances/sealed-secrets.yaml
-## IBM Catalogs
-#- argocd/operators/ibm-catalogs.yaml
+#- argocd/instances/ibm-foundational-services-instance.yaml
+#- argocd/instances/ibm-queuemanager-instance.yaml
+
 
 # B2BI
 #- argocd/instances/ibm-sfg-db2-prod.yaml
@@ -23,8 +24,6 @@ resources:
 #- argocd/instances/sterling-secure-proxy-cm-instance.yaml
 #- argocd/instances/sterling-secure-proxy-engine-instance.yaml
 
-# Sealed Secrets
-#- argocd/instances/sealed-secrets.yaml
 
 patches:
 - target:
