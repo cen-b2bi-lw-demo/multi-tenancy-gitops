@@ -1,8 +1,8 @@
 resources:
 # IBM Software
 - argocd/operators/ibm-foundations.yaml
-- argocd/operators/ibm-catalogs.yaml
-- argocd/operators/ibm-mq-operator.yaml
+# - argocd/operators/ibm-catalogs.yaml
+# - argocd/operators/ibm-mq-operator.yaml
 
 - argocd/instances/sealed-secrets.yaml
 #- argocd/instances/ibm-foundational-services-instance.yaml
