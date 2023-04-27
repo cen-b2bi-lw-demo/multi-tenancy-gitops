@@ -8,7 +8,7 @@ resources:
 - argocd/instances/ibm-foundational-services-instance.yaml
 - argocd/instances/ibm-queuemanager-instance.yaml
 - argocd/operators/ibm-db2.yaml
-- argocd/instances/ibm-db2-instance.yaml
+# - argocd/instances/ibm-db2-instance.yaml
 #- argocd/instances/lightwell-framework.yaml
 
 # B2BI
