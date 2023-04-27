@@ -16,7 +16,7 @@ spec:
     server: 'https://kubernetes.default.svc'
   project: services
   source:
-    path: instances/ibm-db2
+    path: instances/ibm-db2-instance
   syncPolicy:
     automated:
       prune: true
