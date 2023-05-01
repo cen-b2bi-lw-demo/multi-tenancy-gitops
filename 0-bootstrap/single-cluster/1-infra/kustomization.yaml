@@ -5,6 +5,8 @@ resources:
 - argocd/serviceaccounts-tools.yaml
 - argocd/serviceaccounts-b2bi-prod.yaml
 - argocd/sfg-b2bi-clusterwide.yaml
+- argocd/namespace-db2.yaml
+- argocd/serviceaccounts-db2.yaml
 # - argocd/daemonset-sync-global-pullsecret.yaml
 patches:
 - target:
