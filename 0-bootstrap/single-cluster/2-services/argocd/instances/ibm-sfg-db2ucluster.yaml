@@ -16,7 +16,7 @@ spec:
     server: 'https://kubernetes.default.svc'
   project: services
   source:
-    path: instances/ibm-sfg-db2
+    path: instances/ibm-sfg-db2ucluster
   syncPolicy:
     automated:
       prune: true
