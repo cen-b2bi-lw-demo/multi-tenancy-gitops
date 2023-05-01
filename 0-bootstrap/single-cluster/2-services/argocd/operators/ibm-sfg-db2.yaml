@@ -1,7 +1,7 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: ibm-db2ucluster
+  name: ibm-sfg-db2
   annotations:
     argocd.argoproj.io/sync-wave: "225"
   labels:
@@ -18,7 +18,7 @@ spec:
   source:
     repoURL: "" # Populated by kustomize patches in 2-services/kustomization.yaml
     targetRevision: "" # Populated by kustomize patches in 2-services/kustomization.yaml
-    path: instances/ibm-sfg-db2ucluster
+    path: operators/ibm-db2
   syncPolicy:
     automated:
       prune: true
