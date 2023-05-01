@@ -18,7 +18,7 @@ spec:
   source:
     repoURL: "" # Populated by kustomize patches in 2-services/kustomization.yaml
     targetRevision: "" # Populated by kustomize patches in 2-services/kustomization.yaml
-    path: operators/ibm-db2
+    path: operators/ibm-sfg-db2
   syncPolicy:
     automated:
       prune: true
