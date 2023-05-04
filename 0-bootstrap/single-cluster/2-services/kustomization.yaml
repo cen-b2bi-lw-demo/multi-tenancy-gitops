@@ -15,7 +15,7 @@ resources:
 # B2BI
 #- argocd/instances/ibm-sfg-db2-prod.yaml
 #- argocd/instances/ibm-sfg-mq-prod.yaml
-#- argocd/instnaces/ibm-sfg-b2bi-setup
+- argocd/instnaces/ibm-sfg-b2bi-setup
 #- argocd/instances/ibm-sfg-b2bi-prod-setup.yaml
 #- argocd/instances/ibm-sfg-b2bi-prod.yaml
 #- argocd/instances/ibm-sfg-db2-nonprod.yaml
