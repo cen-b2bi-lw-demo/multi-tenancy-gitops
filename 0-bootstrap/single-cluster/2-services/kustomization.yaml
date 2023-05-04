@@ -10,7 +10,7 @@ resources:
 ### DB2 ###
 - argocd/operators/ibm-sfg-db2.yaml
 # - argocd/instances/ibm-sfg-db2ucluster.yaml
-# - argocd/instances/ibm-sfg-db2-setup.yaml
+- argocd/instances/ibm-sfg-db2-setup.yaml
 #- argocd/instances/lightwell-framework.yaml
 
 # B2BI
