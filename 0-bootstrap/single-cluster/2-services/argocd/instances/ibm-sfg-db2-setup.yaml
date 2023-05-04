@@ -5,14 +5,14 @@ metadata:
   annotations:
     argocd.argoproj.io/sync-wave: "250"
   labels:
-    gitops.tier.group: cntk
+    gitops.tier.group: db2
     gitops.tier.layer: services
     gitops.tier.source: git
   finalizers:
     - resources-finalizer.argocd.argoproj.io
 spec:
   destination:
-    namespace: tools
+    namespace: db2
     server: 'https://kubernetes.default.svc'
   project: services
   source:
