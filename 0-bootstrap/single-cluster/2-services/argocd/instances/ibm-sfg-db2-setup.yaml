@@ -18,6 +18,6 @@ spec:
   source:
     path: instances/ibm-sfg-db2-setup
   syncPolicy: {}
-    # automated:
-    #   prune: true
-    #   selfHeal: true
+    automated:
+      prune: true
+      selfHeal: true
