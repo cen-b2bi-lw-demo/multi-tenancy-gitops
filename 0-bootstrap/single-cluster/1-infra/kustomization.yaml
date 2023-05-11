@@ -1,5 +1,6 @@
 resources:
 - argocd/consolenotification.yaml
+- argocd/consolelink.yaml
 - argocd/namespace-tools.yaml
 - argocd/namespace-sealed-secrets.yaml
 - argocd/serviceaccounts-tools.yaml

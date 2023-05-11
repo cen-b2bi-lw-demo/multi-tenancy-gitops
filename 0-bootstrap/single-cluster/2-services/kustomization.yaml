@@ -1,6 +1,8 @@
 resources:
 # IBM Software
-
+# ITXA
+- argocd/instances/ibm-itxa-setup.yaml
+# - argocd/instances/ibm-itxa-prod.yaml
 - argocd/operators/ibm-catalogs.yaml
 - argocd/operators/ibm-foundations.yaml
 - argocd/instances/sealed-secrets.yaml
